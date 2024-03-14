@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.contenedor0{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.contenedor-principal{
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    background-color: transparent;
+    padding: 45px;
+    background-color: #FFFFFF;
+    min-width: 320px;
+    max-width: 440px;
+    margin-bottom: 20px;
+}
+
+.contenedor-1{
+    width: 100%;
+}
+
+.contenedor-1 img{
+    margin-bottom: 10px;
+}
+
+.contenedor-1 h1{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.contenedor-1 input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: transparent;
+    padding-bottom: 7px;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+
+.contenedor-1 a, p{
+    font-size: 13.5px;
+}
+
+.no-tiene-cuenta{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.atras-siguiente{
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.atras-siguiente button{
+    padding: 9px 30px;
+    border: none;
+}
+
+.atras{
+    background-color: #CCCCCC;
+}
+
+.siguiente{
+    background-color: #005DA6;
+    color: #FFFFFF;
+}
+
+
+.contenedor-principal2{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    align-items: center;
+
+}
+
+.contenedor-principal2 img{
+    width: 36px;
+    margin-left: 40px;
+    margin-right: 17px;
+}
+
+.contenedor-principal2 button{
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    padding: 7px 0;
+    background-color: #FFFFFF;
+    border: 0;
+}
