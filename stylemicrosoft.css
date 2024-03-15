@@ -5,7 +5,9 @@
 }
 
 body{
-    background-color: antiquewhite;
+    background-image: url("https://filestore.community.support.microsoft.com/api/images/b15547e4-b614-4c72-a0d8-d07d441fa52c?upload=true");
+    background-size: cover;
+    background-position: center;
 }
 
 .contenedor0{
@@ -19,7 +21,6 @@ body{
 }
 
 .contenedor-principal{
-    border: 1px solid blue;
     display: flex;
     justify-content: center;
     align-items: end;
@@ -27,9 +28,10 @@ body{
     background-color: transparent;
     padding: 45px;
     background-color: #FFFFFF;
-    min-width: 320px;
+    min-width: 370px;
     max-width: 440px;
     margin-bottom: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25); 
 }
 
 .contenedor-1{
@@ -57,8 +59,13 @@ body{
 
 }
 
+.contenedor-1 input:focus{
+    outline: none;
+    border-color: #0068b8;
+}
+
 .contenedor-1 a, p{
-    font-size: 13.5px;
+    font-size: 13px;
 }
 
 .no-tiene-cuenta{
@@ -67,43 +74,72 @@ body{
     margin-bottom: 15px;
 }
 
-a{
+.no-tiene-cuenta p{
+    margin-right: 5px;
+}
+
+.contenedorfr a{
     text-decoration: none;
+    color: #0068b8;
+}
+
+.contenedorfr a:hover{
+    color: #666666;
+    text-decoration: underline;
+    padding-bottom: 0px;
 }
 
 .atras-siguiente{
-    margin-top: 20px;
+    margin-top: 23px;
     display: flex;
     justify-content: end;
 }
 
 .atras-siguiente button{
-    padding: 9px 30px;
+    padding: 7.5px 30px;
     border: none;
+    min-width: 108px;
+    max-width: 108px;
+    display: flex;
+    justify-content: center;
 }
 
 .atras{
     background-color: #CCCCCC;
 }
 
-.siguiente{
-    background-color: #005DA6;
-    color: #FFFFFF;
+.atras:hover{
+    background-color: #B2B2B2;
+    cursor: pointer;
 }
 
+.siguiente{
+    background-color: #0068b8;
+    color: #FFFFFF;
+    margin-left: 4px;
+}
+
+.siguiente:hover{
+    background-color: #005DA6;
+    cursor: pointer;
+}
 
 .contenedor-principal2{
     display: flex;
     flex-direction: row;
-    background-color: red;
     align-items: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25); 
 
 }
 
 .contenedor-principal2 img{
-    width: 36px;
+    width: 34px;
     margin-left: 40px;
     margin-right: 17px;
+}
+
+.contenedor-principal2 p{
+    font-size: 15px;
 }
 
 .contenedor-principal2 button{
@@ -114,4 +150,28 @@ a{
     padding: 7px 0;
     background-color: #FFFFFF;
     border: 0;
+
+}
+
+.contenedor-principal2 button:hover{
+    background-color: #c9c9c9;
+    cursor: pointer;
+}
+
+.terminos{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+}
+
+.terminos a{
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.terminos a:hover{
+    text-decoration: underline;
 }
